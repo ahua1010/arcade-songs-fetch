@@ -39,6 +39,14 @@ npm run <game-code>:all
 npm run <game-code>:<script-name>
 ```
 
+You can also run the built-in video metadata fetcher:
+
+```sh
+npm run fetch-video -- <game-code>
+```
+
+This will generate `dist/<game-code>/video.json` containing YouTube/NicoNico video IDs and view counts.
+
 - Available `<game-code>`:
   - `maimai` (maimai)
   - `chunithm` (CHUNITHM)

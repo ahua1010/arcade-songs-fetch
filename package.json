@@ -118,6 +118,7 @@
     "museca:fetch-images": "ts-node src/museca/fetch-images",
     "museca:gen-json": "ts-node src/museca/gen-json",
     "museca:upload-data": "ts-node src/_core/upload-data museca",
+    "fetch-video": "ts-node src/_core/fetch-video",
     "any:gen-json": "ts-node src/any/gen-json",
     "any:upload-data": "ts-node src/_core/upload-data any",
     "# linting": "",
